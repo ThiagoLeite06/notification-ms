@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/notifications")
+@RequestMapping("/api")
 public class NotificationController {
 
-    @GetMapping("/hello")
+    @GetMapping("/test")
     public String hello() {
         return "hello notification";
     }
